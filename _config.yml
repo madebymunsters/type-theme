@@ -1,40 +1,40 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme" # the subpath of your site, e.g. /blog/
-url: "http://madebymunsters.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://luismenjivar.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Beatrix Kiddo # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Luis Menjivar
+  avatar: profile.jpg
+  gravatar: # Email MD5 hash
+  description: "personal web application portfolio" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Making the Internets</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+     <h1>This is a  collection of the Ruby on Rails Projects I developed at BLOC.io</h1>
+  header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
-
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "luismenjivr@gmail.com"
   behance:
   bitbucket:
-  dribbble: "joeykirk"
-  facebook: "joeykirk"
+  dribbble:
+  facebook: 
   flickr:
-  github: "madebymunsters/type-theme"
+  github: "luismenjivar"
   google_plus:
-  instagram: "joeykirk"
-  linkedin:  # Full URL
+  instagram: 
+  linkedin:  
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  
   steam:
   tumblr:
-  twitter: "joeykirk"
+  twitter: 
   wordpress:
   youtube:
 
@@ -63,7 +63,6 @@ paginate_path: "blog/page:num"
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
 
 # BUILD SETTINGS
 markdown: kramdown
